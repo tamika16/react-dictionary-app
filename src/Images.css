@@ -1,0 +1,7 @@
+.Images img {
+  border-radius: 5px;
+}
+
+.Images img:hover {
+  transform: scale(1.25);
+}
