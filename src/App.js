@@ -15,13 +15,30 @@ function App() {
         </main>
         <footer className="App-footer">
           This project was coded by{" "}
-          <a href="https://tamreportfolioproject.netlify.app/">
+          <a
+            href="https://tamreportfolioproject.netlify.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
             Tamika Englehart
           </a>
           , is open-sourced on{" "}
-          <a href="https://github.com/tamika16/react-dictionary-app">GitHub</a>,
-          and hosted by{" "}
-          <a href="https://tamika-reactdictionary.netlify.app/">Netlify</a>.
+          <a
+            href="https://github.com/tamika16/react-dictionary-app"
+            target="_blank"
+            rel="noreferrer"
+          >
+            GitHub
+          </a>
+          , and hosted by{" "}
+          <a
+            href="https://tamika-reactdictionary.netlify.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Netlify
+          </a>
+          .
         </footer>
       </div>
     </div>
