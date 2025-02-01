@@ -6,13 +6,13 @@ export default function Meaning(props) {
   return (
     <div className="Meaning">
       <h4>{props.meaning.partOfSpeech}</h4>
-      <p>{props.meaning.definition}</p>
-      <p>
+      <div>{props.meaning.definition}</div>
+      <div>
         <em>{props.meaning.example}</em>
-      </p>
-      <p>
+      </div>
+      <div>
         <Synonyms synonyms={props.meaning.synonyms} />
-      </p>
+      </div>
     </div>
   );
 }
