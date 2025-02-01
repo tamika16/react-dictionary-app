@@ -16,7 +16,7 @@
 .App-footer {
   text-align: center;
   font-size: 12px;
-  margin-top: 25px;
+  margin: 15px 0 40px;
 }
 
 .App h1 {
@@ -25,4 +25,13 @@
   font-family: "Caveat", serif;
   font-weight: 700;
   font-size: 48px;
+}
+
+.App a {
+  color: #6c63ff;
+  text-decoration: none;
+}
+
+.App a:hover {
+  text-decoration: underline;
 }

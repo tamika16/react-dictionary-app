@@ -13,7 +13,16 @@ function App() {
         <main>
           <Dictionary />
         </main>
-        <footer className="App-footer">Coded by Tamika Englehart</footer>
+        <footer className="App-footer">
+          This project was coded by{" "}
+          <a href="https://tamreportfolioproject.netlify.app/">
+            Tamika Englehart
+          </a>
+          , is open-sourced on{" "}
+          <a href="https://github.com/tamika16/react-dictionary-app">GitHub</a>,
+          and hosted by{" "}
+          <a href="https://tamika-reactdictionary.netlify.app/">Netlify</a>.
+        </footer>
       </div>
     </div>
   );
