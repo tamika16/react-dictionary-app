@@ -15,7 +15,6 @@ export default function Dictionary() {
 
   function handleImagesResponse(response) {
     setImages(response.data.photos);
-    console.log(response.data.photos);
   }
 
   function search(event) {
@@ -26,6 +25,7 @@ export default function Dictionary() {
     let apiUrl = `https://api.shecodes.io/dictionary/v1/define?word=${keyword}&key=${apiKey}`;
     axios.get(apiUrl).then(handleDictionaryResponse);
 
+    // documentation: https://www.shecodes.io/learn/apis/images
     let imgApiKey = "ebca453d09d2of07d0aaa7ab4fdt23ed";
     let imgApiUrl = `https://api.shecodes.io/images/v1/search?query=${keyword}&key=${imgApiKey}`;
     axios.get(imgApiUrl).then(handleImagesResponse);
